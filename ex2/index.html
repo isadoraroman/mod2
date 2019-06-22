@@ -16,7 +16,7 @@
         var Btn = document.getElementById("botao");
 
         var Esp = document.getElementById("espaco");
-        
+
         function getRandomColor() {
 
             var letters = "0123456789ABCDEF";
@@ -34,7 +34,29 @@
         }
 
         Btn.onclick = function () {
-        
+            var EspE = document.createElement("div");
+
+
+
+            EspE.style.width = "100px";
+
+            EspE.style.height = "100px";
+
+            EspE.style.backgroundColor = "#F00";
+
+            EspE.style.borderColor = "##000000";
+
+            EspE.style.borderStyle = "solid";
+
+            EspE.style.borderBottomWidth = "0.5px";
+
+
+
+            Esp.appendChild(EspE);
+
+
+
+
         };
 
 
