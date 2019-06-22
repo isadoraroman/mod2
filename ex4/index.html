@@ -22,9 +22,15 @@
         function addItem(text) {
             var liE = document.createElement('li');
             var textE = document.createTextNode(text);
-           
+
             liE.appendChild(textE);
             listE.appendChild(liE);
+
+        }
+
+        function adicionar() {
+            addItem(inputE.value);
+            inputE.value = "";
 
         }
 
