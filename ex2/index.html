@@ -36,8 +36,6 @@
         Btn.onclick = function () {
             var EspE = document.createElement("div");
 
-
-
             EspE.style.width = "100px";
 
             EspE.style.height = "100px";
@@ -50,13 +48,15 @@
 
             EspE.style.borderBottomWidth = "0.5px";
 
-
-
             Esp.appendChild(EspE);
 
+            EspE.onmouseover = function () {
 
+                EspE.style.backgroundColor = getRandomColor();
 
+            }
 
+            Esp.appendChild(EspE);
         };
 
 
