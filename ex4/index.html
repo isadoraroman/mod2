@@ -19,6 +19,15 @@
         var listE = document.querySelector('ul');
         var inputE = document.querySelector('input');
 
+        function addItem(text) {
+            var liE = document.createElement('li');
+            var textE = document.createTextNode(text);
+           
+            liE.appendChild(textE);
+            listE.appendChild(liE);
+
+        }
+
 
     </script>
 </body>
